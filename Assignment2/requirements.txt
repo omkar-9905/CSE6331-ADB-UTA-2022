@@ -1,0 +1,7 @@
+flask
+pandas
+pymssql
+sqlalchemy
+azure.storage.blob
+pillow
+geopy
