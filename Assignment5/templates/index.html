@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <head>
+        <title> Assignment 5 </title>
+    </head>
+    <body>
+        <h2> Assignment 5 </h2>
+        <body>
+            <tr>
+            <form class="example" method="post" action=""
+            style="margin:auto;max-width:850px">
+            
+               <input type="text" placeholder="Search" name="input">
+               <button type="submit" class="btn btn-secondary btn-md"><i class="fa fa-search"></i>search</button>
+            </form>
+            {% if data %}
+                {% for i in data%}
+                    <br><p>{{i}}
+                {% endfor %}
+            {%endif%}
+                    </tr>
+        </body>
+</html>

@@ -1,0 +1,24 @@
+14.0
+22
+1       SQLCHAR             2       25      ""   1     time                                                             SQL_Latin1_General_CP1_CI_AS
+2       SQLCHAR             2       25      ""   2     latitude                                                         SQL_Latin1_General_CP1_CI_AS
+3       SQLCHAR             2       25      ""   3     longitude                                                        SQL_Latin1_General_CP1_CI_AS
+4       SQLCHAR             2       25      ""   4     depth                                                            SQL_Latin1_General_CP1_CI_AS
+5       SQLCHAR             2       25      ""   5     mag                                                              SQL_Latin1_General_CP1_CI_AS
+6       SQLCHAR             2       25      ""   6     magtype                                                          SQL_Latin1_General_CP1_CI_AS
+7       SQLCHAR             2       25      ""   7     nst                                                              SQL_Latin1_General_CP1_CI_AS
+8       SQLCHAR             2       25      ""   8     gap                                                              SQL_Latin1_General_CP1_CI_AS
+9       SQLCHAR             2       25      ""   9     dmin                                                             SQL_Latin1_General_CP1_CI_AS
+10      SQLCHAR             2       25      ""   10    rms                                                              SQL_Latin1_General_CP1_CI_AS
+11      SQLCHAR             2       25      ""   11    net                                                              SQL_Latin1_General_CP1_CI_AS
+12      SQLCHAR             2       25      ""   12    id                                                               SQL_Latin1_General_CP1_CI_AS
+13      SQLCHAR             2       25      ""   13    updated                                                          SQL_Latin1_General_CP1_CI_AS
+14      SQLCHAR             2       50      ""   14    place                                                            SQL_Latin1_General_CP1_CI_AS
+15      SQLCHAR             2       25      ""   15    type                                                             SQL_Latin1_General_CP1_CI_AS
+16      SQLCHAR             2       25      ""   16    horizontalError                                                  SQL_Latin1_General_CP1_CI_AS
+17      SQLCHAR             2       25      ""   17    depthError                                                       SQL_Latin1_General_CP1_CI_AS
+18      SQLCHAR             2       25      ""   18    magError                                                         SQL_Latin1_General_CP1_CI_AS
+19      SQLCHAR             2       25      ""   19    magNst                                                           SQL_Latin1_General_CP1_CI_AS
+20      SQLCHAR             2       25      ""   20    status                                                           SQL_Latin1_General_CP1_CI_AS
+21      SQLCHAR             2       25      ""   21    locationSource                                                   SQL_Latin1_General_CP1_CI_AS
+22      SQLCHAR             2       25      ""   22    magSource                                                        SQL_Latin1_General_CP1_CI_AS
