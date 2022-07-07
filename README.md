@@ -1,7 +1,7 @@
 # CSE6331-ADB-UTA-2022
-Coursework(Spring 2022) include 7 Assignments and & Quizes.
-
 oxg7237@mavs.uta.edu
+
+Coursework(Spring 2022) include 7 Assignments and & Quizes.
 
 This includes all the assignments for CSE6331 ADV TOPICS IN DATABASE SYSTEMS.
 
