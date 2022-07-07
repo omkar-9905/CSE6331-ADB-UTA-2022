@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+        <title> Quiz 3 </title>
+    </head>
+    <body>
+        <h2> Quiz 3 </h2>
+        <body>
+            <tr>
+            <form class="example" method="post" action=""
+            style="margin:auto;max-width:850px">
+            
+               <input type="text" placeholder="Search" name="input1">
+               <button type="submit" class="btn btn-secondary btn-md"><i class="fa fa-search"></i>searchwithoutcache</button>
+               <br><p><input type="text" placeholder="Search" name="input2">
+               <button type="submit" class="btn btn-secondary btn-md"><i class="fa fa-search"></i>searchwithcache</button>
+               <br><p></p><input type="text" placeholder="Search" name="input3">
+               <br><p><input type="text" placeholder="Search" name="input4">
+               <button type="submit" class="btn btn-secondary btn-md"><i class="fa fa-search"></i>range</button>
+               <br><p></p><input type="text" placeholder="Search" name="input5">
+               <br><p><input type="text" placeholder="Search" name="input6">
+                <br><p><input type="text" placeholder="Search" name="input9">
+               <button type="submit" class="btn btn-secondary btn-md"><i class="fa fa-search"></i>range</button>
+               <br><p><input type="text" placeholder="Search" name="input7">
+                <br><p><input type="text" placeholder="Search" name="input8">
+                <br><p><input type="text" placeholder="Search" name="input9">
+                <button type="submit" class="btn btn-secondary btn-md"><i class="fa fa-search"></i>id_range</button>
+
+               <br><p><input type="date" id="data-apreensao" name="from" class="form-control" format="dd/mm/yyyy" placeholder="DD-MM-YYYY">
+                <br><p><input type="date" id="data-apreensao" name="to" class="form-control" format="dd/mm/yyyy" placeholder="DD-MM-YYYY">
+                &nbsp;<button type="submit" class="btn btn-secondary btn-md"><i class="fa fa-search"></i>search</button> 
+                <br><p><input type="submit" value="getData" name="action1"/>
+                <br><p><input type="text" placeholder="from_mag" name="from_mag">
+                &nbsp;<input type="text" placeholder="to_mag" name="to_mag">
+                &nbsp;<input type="text" placeholder="place" name="place">
+                <br><p><button type="submit" class="btn btn-secondary btn-md"><i class="fa fa-search"></i>getmag</button>
+                <br><p><input type="text" placeholder="Search" name="lat">
+               &nbsp;<input type="text" placeholder="Search" name="long">
+               <br><p></p><button type="submit" class="btn btn-secondary btn-md"><i class="fa fa-search"></i>getCity</button>
+              <!-- <input type="text" placeholder="Search" name="change_value">
+               <button type="submit" class="btn btn-secondary btn-md"><i class="fa fa-search"></i>changeIT</button>-->
+            </form>
+            {% if data %}
+            <br><p>{{qtime}}
+                {% for i in data%}
+                    <br><p>{{i}}
+                {% endfor %}
+            {%endif%}
+                    </tr>
+        </body>
+</html>
