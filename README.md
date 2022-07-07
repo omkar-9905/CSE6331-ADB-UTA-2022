@@ -4,7 +4,7 @@ oxg7237@mavs.uta.edu
 
 This includes all the assignments for CSE6331 ADV TOPICS IN DATABASE SYSTEMS.
 
-Assignments are coded and tested in python3.9.7 (flask module needed).
+Assignments are coded and tested in python3.9.7.
 
 Used Azure cloud to implement all the functionalities.
 
